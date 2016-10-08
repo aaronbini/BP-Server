@@ -1,0 +1,11 @@
+{
+  "web":{
+    "client_id":"829715815408-cr8hn4n73m9meg28i289tqr20r2a3ak1.apps.googleusercontent.com",
+    "project_id":"spry-pipe-145419",
+    "auth_uri":"https://accounts.google.com/o/oauth2/auth",
+    "token_uri":"https://accounts.google.com/o/oauth2/token",
+    "auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs",
+    "client_secret":"rd5sjo9sOM2AG25JEVkXO1bG",
+    "javascript_origins":["https://developers.google.com"]
+  }
+}
