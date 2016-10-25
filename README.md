@@ -4,4 +4,4 @@
 
 ###Run git clone && npm install
 
-####Will also need to git clone && npm install the BP-Tracker repo in the same folder as BP-Server
+####Will also need to git clone && npm install the BP-Tracker repo in the same directory as BP-Server
