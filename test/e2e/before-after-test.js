@@ -1,12 +1,9 @@
-//start db, store connection
+// start the db, and store connection, 
 const connection = require('../../lib/mongoose-setup');
 
-//drop db before starting
-before( done => {
-  const drop = () => connection.db.dropDatabase(done);
-  if (connection.readyState === 1) drop();
-  else connection.on('open', drop);
-});
+// drop the database before starting:
+const db = require('./db');
+before(db.drop());
 
-//close connection after all tests run
+// close connection when done:
 after(() => connection.close());
