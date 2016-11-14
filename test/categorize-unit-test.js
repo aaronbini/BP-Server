@@ -1,4 +1,4 @@
-const categorize = require('../../lib/categorize');
+const categorize = require('../lib/categorize');
 const assert = require('chai').assert;
 
 describe('categorize unit test', () => {

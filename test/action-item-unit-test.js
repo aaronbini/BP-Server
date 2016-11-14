@@ -1,4 +1,4 @@
-const ActionItem = require('../../lib/models/actionItem');
+const ActionItem = require('../lib/models/actionItem');
 const assert = require('chai').assert;
 
 describe('Action Item Model', () => {

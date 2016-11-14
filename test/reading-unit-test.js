@@ -1,4 +1,4 @@
-const Reading = require('../../lib/models/reading');
+const Reading = require('../lib/models/reading');
 const assert = require('chai').assert;
 
 describe('reading model', () => {

@@ -1,4 +1,4 @@
-const User = require('../../lib/models/user');
+const User = require('../lib/models/user');
 const assert = require('chai').assert;
 
 describe('user model', () => {

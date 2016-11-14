@@ -1,4 +1,4 @@
-const request = require('../request');
+const request = require('./request');
 const assert = require('chai').assert;
 const signupPath = '/api/auth/signup';
 const userPath = '/api/users';

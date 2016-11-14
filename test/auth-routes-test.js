@@ -1,4 +1,4 @@
-const request = require('../request');
+const request = require('./request');
 const assert = require('chai').assert;
 const authPath = '/api/auth';
 const readingPath = '/api/readings';
