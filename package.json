@@ -5,10 +5,8 @@
   "main": "index.js",
   "scripts": {
     "pretest": "eslint **/*.js",
-    "test": "npm run test:unit && npm run test:e2e",
-    "test:e2e": "mocha ./test/e2e",
-    "test:unit": "mocha ./test/unit",
-    "test:unit:watch": "mocha -w ./test/unit",
+    "test": "mocha",
+    "test:unit:watch": "mocha -w",
     "test:e2e:watch": "nodemon --exec 'npm run test:e2e'",
     "test:watch": "npm run test:unit:watch && npm run test:e2e:watch",
     "start": "nodemon index.js"
