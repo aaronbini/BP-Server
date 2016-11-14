@@ -37,5 +37,5 @@ jspm_packages
 .node_repl_history
 
 .env
-.env.test
+test/e2e/.env.test
 client_id.json
