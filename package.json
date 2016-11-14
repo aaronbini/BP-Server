@@ -6,7 +6,7 @@
   "scripts": {
     "pretest": "eslint **/*.js",
     "test": "npm run test:unit && npm run test:e2e",
-    "test:e2e": "MONGODB_URI=mongodb://localhost/bp-test mocha ./test/e2e",
+    "test:e2e": "mocha ./test/e2e",
     "test:unit": "mocha ./test/unit",
     "test:unit:watch": "mocha -w ./test/unit",
     "test:e2e:watch": "nodemon --exec 'npm run test:e2e'",
