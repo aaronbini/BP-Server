@@ -38,3 +38,4 @@ jspm_packages
 
 .env
 client_id.json
+hidden
