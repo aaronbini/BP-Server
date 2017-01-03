@@ -99,12 +99,14 @@ describe('reading routes', () => {
   });
 
   it('uses a post to query readings by date range', done => {
-    const dateRange = {fromDate: '2016-11-05', toDate: '2016-11-14'};
+    let now = new Date();
+    const dateRange = {fromDate: '2016-11-05', toDate: now};
     request
       .post(`${readingPath}/dateRange/${userId}`)
       .send(dateRange)
       .set('Authorization', token)
       .then(res => {
+        console.log(res.body);
         assert.equal(res.status, 200);
         assert.equal(res.body.readings[0].diastolic, testReading.diastolic);
         done();
