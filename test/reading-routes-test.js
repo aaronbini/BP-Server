@@ -106,7 +106,6 @@ describe('reading routes', () => {
       .send(dateRange)
       .set('Authorization', token)
       .then(res => {
-        console.log(res.body);
         assert.equal(res.status, 200);
         assert.equal(res.body.readings[0].diastolic, testReading.diastolic);
         done();
