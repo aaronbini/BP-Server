@@ -23,7 +23,6 @@ describe('categorize unit test', () => {
 
   it('properly categorizes readings', () => {
     const tally = categorize(readings);
-    console.log(tally);
     assert.equal(tally.good, 1);
     assert.equal(tally.pre, 2);
     assert.equal(tally.hypI, 1);
